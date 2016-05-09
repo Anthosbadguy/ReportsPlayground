@@ -1,0 +1,67 @@
+<html>
+<head>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    </head>
+<body>
+
+<div class="objectselect"><button class="object btn btn-link btn-small" style="width: 150px;" type="button">Staff</button> <button class="object btn btn-link btn-small" style="width: 150px;" type="button">Contact</button> <button class="object btn btn-link btn-small" style="width: 150px;" type="button">Account</button> <button class="object btn btn-link btn-small" style="width: 150px;" type="button">Opportunity</button> <button class="object btn btn-link btn-small" style="width: 150px;" type="button">Campaign</button> <button class="object btn btn-link btn-small" style="width: 150px;" type="button">Product</button></div>
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<div id="container" class="objectshow" style="display: none;">
+<div id="titlecontainer" align="center">
+<h2 id="chartTitle" style="display: inline; color: rgba(69, 106, 176,0.80);">&nbsp;</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<br /> <br />
+<div id="picklistcontainer" align="center"><select id="myPickList">
+<option value="Null">Select an option</option>
+<option value="Count">Count</option>
+<option value="Values">Values</option>
+</select><select id="secondpicklist">
+<option>&nbsp;</option>
+</select></div>
+<table width="100%">
+<tbody>
+<tr>
+<td align="right" width="50%">
+<div id="canvascontainer">&nbsp;</div>
+</td>
+<td align="left" width="50%">
+<div id="filtersdiv" style="display: inline;">
+<div id="datefiltercontainer" class="filtercontainer" style="display: none;">
+<p id="addDateFilter" style="text-align: justify;"><button class="btn btn-link btn-small" type="button">Add Date Filter</button></p>
+</div>
+<br />
+<div id="rangefiltercontainer" class="filtercontainer" style="display: none;">
+<p id="addRangeFilter"><button class="btn btn-link btn-small" type="button">Add Range Filter</button></p>
+</div>
+</div>
+<div id="checkboxcontainer" style="display: none;">&nbsp;</div>
+</td>
+</tr>
+</tbody>
+</table>
+<br /> <br /> <br />
+<div id="tablecontainer" align="center">
+<table>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="Chart.min.js"></script>
+    <script src="datastrings.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
